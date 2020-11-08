@@ -9,7 +9,7 @@ export type ScrollListProps = {
   ListItem: React.FunctionComponent<any>;
 };
 
-function ScrollList({ name, ListItem }) {
+function ScrollList({ name, ListItem }: ScrollListProps) {
   const { results, loadMore } = usePageRequest(name);
 
   useEffect(() => {
