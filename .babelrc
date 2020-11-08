@@ -26,7 +26,8 @@
           {
             "root": ["./"],
             "alias": {
-              "@src": "./src"
+              "@src": "./src",
+              "@data": "./data"
             }
           }
         ]
@@ -59,7 +60,8 @@
           {
             "root": ["./"],
             "alias": {
-              "@src": "./src"
+              "@src": "./src",
+              "@data": "./data"
             }
           }
         ]
@@ -96,7 +98,8 @@
       {
         "root": ["./"],
         "alias": {
-          "@src": "./src"
+          "@src": "./src",
+          "@data": "./data"
         }
       }
     ]
